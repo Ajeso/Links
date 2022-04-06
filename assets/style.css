@@ -46,11 +46,15 @@
 }
 
 /* Colors */
+
 .bg-white {
   background-color: var(--color-white);
 }
 .bg-purple {
   background-color: var(--color-purple);
+}
+.text-purple{
+  color: var(--color-purple);
 }
 .text-black {
   color: var(--color-black);
@@ -100,7 +104,7 @@
 }
 .border-solid {
   border-style: solid;
-  border-color: rgb(182, 179, 179);
+  border-color: var(--color-black);
 }
 .float-right {
   float: right;
